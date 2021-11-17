@@ -47,7 +47,7 @@ public final class ProcessInstanceCreator {
       clientBuilder = ZeebeClient.newClientBuilder().gatewayAddress(defaultAddress).usePlaintext();
     }
 
-    final String bpmnProcessId = "demoProcess";
+    final String bpmnProcessId = "hello";
 
     try (final ZeebeClient client = clientBuilder.build()) {
 
